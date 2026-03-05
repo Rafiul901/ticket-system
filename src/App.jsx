@@ -42,7 +42,7 @@ export default function App() {
       showAlert(`"${ticket.title}" is already tracked.`);
       return;
     }
-    setTaskStatus((prev) => [...prev, ticket]);
+   
     showAlert(`"${ticket.title}" added to Task Status!`);
   };
 
